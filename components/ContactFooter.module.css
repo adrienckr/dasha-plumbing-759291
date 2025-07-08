@@ -1,0 +1,107 @@
+/* src/templates/modern/components/ContactFooter.module.css */
+
+.contactFooter {
+  padding: var(--spacing-xl) 0;
+  background: white;
+}
+
+.title {
+  text-align: center;
+  font-family: var(--font-heading);
+  font-size: 2.5rem;
+  color: var(--color-brand);
+  margin-bottom: var(--spacing-sm);
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: var(--spacing-lg);
+  color: var(--color-text-on-light);
+}
+
+.formContainer {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-xl);
+  align-items: center;
+}
+
+.formSimple {
+  background: white;
+  padding: var(--spacing-lg);
+  border-radius: var(--border-radius-lg);
+}
+
+.formSimple h3 {
+  color: var(--color-brand);
+  margin-bottom: var(--spacing-md);
+  font-size: 1.5rem;
+}
+
+.infoGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--spacing-lg);
+}
+
+.infoColumn {
+  text-align: center;
+  color: var(--color-text-on-light);
+}
+
+.infoColumn h4 {
+  color: var(--color-brand);
+  margin-bottom: var(--spacing-sm);
+  font-size: 1.2rem;
+}
+
+.infoColumn p {
+  margin-bottom: var(--spacing-sm);
+}
+
+/* Form Groups from Hero, can be reused or moved to a global form style file */
+.formGroup {
+  margin-bottom: var(--spacing-md);
+}
+
+.formGroup input {
+  width: 100%;
+  padding: var(--spacing-sm);
+  border: none;
+  border-radius: var(--border-radius-md);
+  font-size: 1rem;
+}
+
+.submitBtn {
+  width: 100%;
+  background: var(--color-accent);
+  color: var(--color-text-on-dark);
+  padding: var(--spacing-md);
+  border-radius: 999px; /* Pill shape */
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.submitBtn:hover {
+  background: var(--color-brand);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .content {
+    grid-template-columns: 1fr;
+  }
+}
