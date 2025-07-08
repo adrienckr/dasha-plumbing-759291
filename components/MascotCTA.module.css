@@ -1,0 +1,87 @@
+/* src/templates/modern/components/MascotCTA.module.css */
+
+.mascotCta {
+  background: var(--color-brand);
+  color: var(--color-text-on-dark);
+  padding: var(--spacing-xl) 0;
+  text-align: center;
+  font-family: var(--font-body);
+}
+
+.mascotCta2 {
+  padding: var(--spacing-lg) 0;
+}
+
+.mascotContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-lg);
+  flex-wrap: wrap;
+}
+
+.reversed {
+  flex-direction: row-reverse;
+}
+
+.mascotImage {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+}
+
+.mascotImage img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.mascotMessage {
+  max-width: 500px;
+}
+
+.mascotTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: var(--spacing-md);
+}
+
+.emergencyBtn {
+  background: var(--color-accent);
+  color: var(--color-text-on-dark);
+  padding: var(--spacing-md) var(--spacing-lg);
+  border-radius: 999px; /* Pill shape */
+  font-size: 1.2rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-top: var(--spacing-md);
+  animation: pulse 2s infinite;
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.emergencyBtn:hover {
+  background: var(--color-brand);
+  transform: scale(1.05) translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .mascotContent {
+    flex-direction: column;
+  }
+  .reversed {
+    flex-direction: column;
+  }
+  .mascotTitle {
+    font-size: 2rem;
+  }
+}
