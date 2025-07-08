@@ -1,0 +1,107 @@
+{
+  "businessName": "Dasha Plumbing",
+  "phoneNumber": "3109893488",
+  "logoUrl": "https://vm5lkzacsjaxqpo8.public.blob.vercel-storage.com/logo-candidate-70ff9e1620aa.png",
+  "colors": {
+    "primary": "#1e40af",
+    "secondary": "#1e40af",
+    "accent": "#f59e0b",
+    "background": "#ffffff",
+    "surface": "#f8fafc",
+    "text": "#1f2937",
+    "textSecondary": "#6b7280",
+    "textOnDark": "#ffffff",
+    "border": "#e5e7eb",
+    "success": "#10b981",
+    "warning": "#f59e0b",
+    "error": "#ef4444"
+  },
+  "fonts": {
+    "heading": "Inter",
+    "body": "Inter"
+  },
+  "spacing": {
+    "xs": "0.5rem",
+    "sm": "1rem",
+    "md": "1.5rem",
+    "lg": "2rem",
+    "xl": "3rem",
+    "2xl": "4rem"
+  },
+  "borderRadius": {
+    "sm": "0.375rem",
+    "md": "0.5rem",
+    "lg": "0.75rem"
+  },
+  "hero": {
+    "title": "Dasha Plumbing - Expert Plumbing Services",
+    "subtitle": "Professional plumbing solutions you can trust. Fast, reliable service for all your plumbing needs.",
+    "ctaText": "Get Started Today",
+    "formTitle": "Get Free Estimate"
+  },
+  "services": [
+    {
+      "name": "Emergency Plumbing",
+      "description": "Professional emergency plumbing services",
+      "imageUrl": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=400&h=300&fit=crop",
+      "isEmergency": true
+    }
+  ],
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Available 24/7 for all your plumbing needs",
+    "phone": "3109893488",
+    "email": "info@dashaplumbing.com",
+    "emergencyPhone": "3109893488"
+  },
+  "aboutBlock": {
+    "title": "Your Trusted Local Plumbers",
+    "imageUrl": "https://vm5lkzacsjaxqpo8.public.blob.vercel-storage.com/logo-candidate-70ff9e1620aa.png",
+    "text": "With years of experience serving the community, we provide reliable, professional plumbing services with upfront pricing and guaranteed satisfaction.",
+    "ctaText": "Contact Us Today"
+  },
+  "offers": [
+    {
+      "title": "First Time Customer Special",
+      "discount": "$50 OFF",
+      "description": "Get $50 off your first plumbing service call",
+      "conditions": "Valid for new customers only. Cannot be combined with other offers."
+    }
+  ],
+  "whyWait": {
+    "title": "Why Wait to Call?",
+    "message": "We really can't think of a good reason either.",
+    "ctaText": "Call Now!"
+  },
+  "serviceAreas": [
+    {
+      "name": "Downtown",
+      "isMain": true
+    },
+    {
+      "name": "Midtown",
+      "isMain": false
+    },
+    {
+      "name": "Uptown",
+      "isMain": false
+    },
+    {
+      "name": "East Side",
+      "isMain": false
+    },
+    {
+      "name": "West Side",
+      "isMain": false
+    },
+    {
+      "name": "Metro Area",
+      "isMain": false
+    }
+  ],
+  "footer": {
+    "copyright": "© 2025 Dasha Plumbing. All rights reserved.",
+    "license": "Licensed Plumber #12345",
+    "insurance": "Fully Insured"
+  }
+}
