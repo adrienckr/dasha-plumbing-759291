@@ -1,0 +1,79 @@
+/* src/templates/modern/components/SpecialOffers.module.css */
+
+.specialOffers {
+  padding: var(--spacing-xl) 0;
+  background: var(--color-bg-dark);
+  color: var(--color-text-on-dark);
+  text-align: center;
+  font-family: var(--font-body);
+}
+
+.title {
+  font-family: var(--font-heading);
+  text-align: center;
+  margin-bottom: var(--spacing-lg);
+  font-size: 2.5rem;
+  color: var(--color-accent);
+}
+
+.grid {
+  display: grid;
+  gap: var(--spacing-lg);
+}
+
+.card {
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  color: var(--color-text-on-light);
+  padding: var(--spacing-lg);
+  border-radius: var(--border-radius-lg);
+  border: 2px solid var(--color-brand);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+.discount {
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  margin-bottom: var(--spacing-md);
+  border-radius: 0 0 var(--border-radius-lg) 0;
+}
+
+.offerTitle {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-brand);
+  margin: var(--spacing-lg) 0 var(--spacing-sm);
+}
+
+.conditions {
+  font-size: 0.8rem;
+  color: #6b7280;
+  margin-top: var(--spacing-md);
+}
+
+.ctaBtn {
+  display: inline-block;
+  background: var(--color-accent);
+  color: var(--color-text-on-dark);
+  padding: var(--spacing-sm) var(--spacing-lg);
+  border-radius: 999px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-weight: 700;
+  margin-top: var(--spacing-md);
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-heading);
+}
+
+.ctaBtn:hover {
+  background: var(--color-brand);
+  transform: translateY(-2px);
+}
