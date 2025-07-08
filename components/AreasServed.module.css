@@ -1,0 +1,68 @@
+/* src/templates/modern/components/AreasServed.module.css */
+
+.areasServed {
+  padding: var(--spacing-xl) 0;
+  background: var(--color-bg-dark);
+  color: var(--color-text-on-dark);
+}
+
+.title {
+  font-family: var(--font-heading);
+  text-align: center;
+  margin-bottom: var(--spacing-lg);
+  font-size: 2.5rem;
+  color: var(--color-accent);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-lg);
+}
+
+.item {
+  background: rgba(255, 255, 255, 0.1);
+  padding: var(--spacing-md);
+  border-radius: var(--border-radius-md);
+  text-align: center;
+  font-weight: 600;
+  backdrop-filter: blur(10px);
+}
+
+.item.main {
+  background: var(--color-accent);
+  color: var(--color-text-on-dark);
+}
+
+.cta {
+  text-align: center;
+  margin-top: var(--spacing-lg);
+}
+
+.btn {
+  background: var(--color-accent);
+  color: var(--color-text-on-dark);
+  padding: var(--spacing-md) var(--spacing-lg);
+  border-radius: 999px; /* Pill shape */
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+  background: var(--color-brand);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
